@@ -1,0 +1,244 @@
+body
+{
+	background-color: #f8f9fa;
+	/*Tahoma*/
+	font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+
+}
+/** navbar beállítások*/
+.navbar-brand
+{
+	/*text-decoration: none;
+	*/
+	font-size: 25px;
+	padding-left: 10px;
+}
+.navbar-brand>span
+{
+	border-left: 1px solid black;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+.navbar
+{
+	border-bottom: 1px solid lightgray;
+}
+
+/** carousel beállítások*/
+.firstSlide
+{
+	background-image: url("../img/slide01.jpeg");
+	background-size: cover;
+	height: 90vh;
+}
+.secoundSlide
+{
+	background-image: url("../img/slide02.jpeg");
+	background-size: cover;
+	height: 90vh;
+}
+.thirdSlide
+{
+	background-image: url("../img/slide03.jpeg");
+	background-size: cover;
+	height: 90vh;
+}
+.caption1
+{
+	display: block;
+	top: 40%;
+	right: 25%;
+	text-shadow: 0.5px 0.5px black;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+.caption2
+{
+	display: block;
+	top: 40%;
+	right: 25%;
+	text-shadow: 0.5px 0.5px black;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+.caption3
+{
+	display: block;
+	top: 40%;
+	right: 25%;
+	text-shadow: 0.5px 0.5px black;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+/**REGISZTRÁCIÓ ÉS BELÉPÉS*/
+
+.form-control:focus
+{
+	box-shadow: 0px 0px 15px lightgray;
+	border: 1px solid gray;
+}
+.input-group-text
+{
+	background: lightgray;
+}
+.loginBtn
+{
+	width: 100%;
+}
+.registBtn
+{
+	width: 100%;
+}
+.loginMainDiv
+{
+	background: url(../img/bg01.jpeg);
+	background-size: cover;
+	height:100vh;
+}
+.registMainDiv
+{
+	background: url(../img/bg02.jpeg);
+	background-size: cover;
+	height:100vh;
+}
+.loginAltDiv
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 30px 20px;
+	width: 35%;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 15px;
+	border: 1px solid gray;
+	box-shadow: 0px 0px 30px gray;
+}
+.registAltDiv
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 30px 20px;
+	width: 35%;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 15px;
+	border: 1px solid gray;
+	box-shadow: 0px 0px 30px gray;
+}
+/** főoldal funkció boxok*/
+.boxes
+{
+	padding: 2.5rem 4rem 0rem 4rem;
+}
+.boxesImg
+{
+	box-shadow: 0px 0px 25px gray;
+	margin-bottom: 2rem;
+}
+.myImg:hover
+{
+ 	-webkit-filter: brightness(70%);
+}
+.profileSettingsDiv
+{
+	width: 50%;
+}
+.images
+{
+	width: 100%;
+	/*border-radius: 5px;*/
+	/*border: 1px solid gray;*/
+	/*box-shadow: 0px 0px 15px gray;*/
+
+}
+.imgDiv
+{
+	width: 38%;
+	background: white;
+	height: 100%;
+	box-shadow: 0px 0px 25px black;
+}
+.bin
+{
+		  background: none;
+		  padding: 0px;
+		  border: none;
+}
+.dashboardnames
+{
+	color: rgb(10,40,70);
+}
+.dashboardnames:hover
+{
+	color: black;
+	text-decoration: none;
+}
+.addcategorydiv
+{
+	text-align: right;
+}
+.autograph
+{
+	word-break: break-all;
+}
+/*-------------------------*/
+.upload-btn-wrapper input[type=file] {
+  font-size: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.notes
+{
+	width: 50%;
+	box-shadow: 0px 0px 25px black;
+	opacity: 0.9;
+}
+.profileImgDownloadBtn
+{
+	margin-left: 5px;
+	margin-top: 1.5rem;
+}
+/*--------------------------*/
+@media screen and (max-width: 767px)
+{
+    .loginAltDiv
+	{
+		width: 80%;
+	}
+	.profileInfosMainDiv
+	{
+		text-align: center;
+	}
+	.profileSettingsDiv
+	{
+		width: 100%;
+	}
+	.imgDiv
+	{
+		width: 100%;
+		background: white;
+		height: 100%;
+	}
+	.addcategorydiv
+	{
+		text-align: center;
+	}
+	.imageuploadbtn
+	{
+		width: 100%;		
+	}
+	.notes
+	{
+		width: 90%;
+	}
+}
